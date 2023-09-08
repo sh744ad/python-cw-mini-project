@@ -24,10 +24,10 @@ def padel_balls_cost(ball_boxes):
     
 def padel_game_cost():
 
-court_type = input("court type indoor: / outdoor")
-rackets_brand= input("racket_brand : nox / slux /bullpadel")
-ball_boxes = int(input("number of ball boxes: 1/ 2 / 3"))
-print= padel_court_cost(court_type)+ rackets_cost(rackets_brand)+ padel_balls_cost(ball_boxes)
-return print
+    court_type = input("court type indoor: / outdoor")
+    rackets_brand= input("racket_brand : nox / slux /bullpadel")
+    ball_boxes = int(input("number of ball boxes: 1/ 2 / 3"))
+    print= padel_court_cost(court_type)+ rackets_cost(rackets_brand)+ padel_balls_cost(ball_boxes)
+    return print
 
 print(padel_game_cost())
